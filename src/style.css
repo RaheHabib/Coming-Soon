@@ -1,0 +1,199 @@
+body {
+  overflow-y: hidden; /* Prevent vertical scrolling */
+}
+
+
+.coming-soon-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+  background-color: #F2F6F9; /* Light background for the whole page */
+}
+
+.coming-soon-header {
+  width: 100%;
+  height: 150px; /* Fixed height for larger screens */
+  background-color: #04092C; /* Dark background for the header */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F2F6F9;
+  flex-shrink: 0; /* Prevent the header from shrinking */
+}
+
+.logo {
+  width: 140px;
+  height: 122px;
+  margin-right: 50px; /* Add margin to create a gap */
+}
+
+.coming-soon-text {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 98px; /* Adjusted to 70% of font size for better appearance */
+}
+.content-area {
+  flex-grow: 1; /* Take up all available space */
+  background-color: #FFF; /* White background for the content area */
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Arrange children vertically */
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-text {
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 6vw; /* Responsive font size */
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px; /* Decrease margin to move text elements closer */
+  margin-top: -40px; /* Move the text elements up by 20px */
+}
+
+.additional-text {
+  color: rgba(0, 0, 0, 0.50);
+  font-family: 'Inter', sans-serif;
+  font-size: 2vw; /* Responsive font size */
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 20px; /* Add space below additional text */
+}
+.follow-text {
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* Adjusted line height */
+  margin-top:-5px;
+  text-align: center;
+}
+
+.coming-soon-footer {
+  background-color: #04092C; /* Same as header */
+  color: #F2F6F9;
+  text-align: center;
+  padding: 20px;
+  flex-shrink: 0;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links a {
+  margin: 0 10px; /* Adjust the value to increase or decrease the gap */
+}
+.social-links a svg {
+  color: #687C94; /* Sets the icon color */
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .coming-soon-header {
+    height: 200px; /* Smaller height for smaller screens */
+  }
+
+  .logo {
+    width: 100px; /* Smaller logo */
+    height: 88px;
+  }
+
+  .coming-soon-text {
+    font-size: 40px; /* Smaller text size */
+    line-height: 56px; /* Adjusted line height */
+  }
+
+  .content-area, .coming-soon-footer {
+    padding: 10px;
+  }
+
+  .middle-text {
+    font-size: 8vw;
+    /* margin-top: -40px;  */
+  }
+  
+  .additional-text {
+    font-size: 3vw;
+  }
+  .follow-text {
+    font-size: 3vw;
+
+  }
+  .social-links a {
+    margin: 0 10px; /* Smaller margin for smaller screens */
+  }
+
+  .social-links a svg {
+    width: 20px; /* Smaller icon size */
+    height: 20px; /* Smaller icon size */
+  }
+
+
+  
+}
+
+@media (max-width: 480px) {
+  .coming-soon-header {
+    height: 150px; /* Even smaller for very small devices */
+  }
+
+  .logo {
+    width: 80px;
+    height: 70px;
+  }
+
+  .coming-soon-text {
+    font-size: 30px; /* Even smaller text size */
+    line-height: 42px; /* Adjusted line height */
+  }
+
+  .middle-text {
+    font-size: 9vw;
+    /* margin-top: -40px;  */
+  }
+  
+  .additional-text {
+    font-size: 3vw;
+  }
+
+  .follow-text {
+    font-size: 3vw;
+
+  }
+
+  .social-links a {
+    margin: 0 10px; /* Smaller margin for smaller screens */
+  }
+
+  .social-links a svg {
+    width: 20px; /* Smaller icon size */
+    height: 20px; /* Smaller icon size */
+  }
+}
+
+/* Landscape orientation */
+@media screen and (orientation: landscape) {
+  .coming-soon-header {
+    height: 150px; /* Adjusted height for landscape orientation */
+  }
+
+  .logo {
+    width: 120px; /* Adjusted logo size */
+    height: 104px;
+    margin-right: 30px; /* Adjusted margin for logo */
+  }
+
+  .coming-soon-text {
+    font-size: 50px; /* Adjusted text size */
+    line-height: 70px; /* Adjusted line height */
+  }
+}
