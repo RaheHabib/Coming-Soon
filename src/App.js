@@ -6,8 +6,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<ComingSoon />} />  // Root path
-        <Route path="*" element={<Navigate replace to="/" />} />  // Redirect all unmatched routes to root
+        <Route path="/" element={<ComingSoon />} />  {/* Root path*/}
+        <Route path="*" element={<Navigate replace to="/" />} />  {/*/ Redirect all unmatched routes to root */}
       </Routes>
     </Router>
   );
