@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Coming-Soon/static/css/main.eb653d20.css",
+    "main.js": "/Coming-Soon/static/js/main.b5faf628.js",
+    "static/js/453.6eb5dcc5.chunk.js": "/Coming-Soon/static/js/453.6eb5dcc5.chunk.js",
+    "index.html": "/Coming-Soon/index.html",
+    "static/media/moqah.svg": "/Coming-Soon/static/media/moqah.4ee059bb7081190fabc24faec70bf445.svg",
+    "main.eb653d20.css.map": "/Coming-Soon/static/css/main.eb653d20.css.map",
+    "main.b5faf628.js.map": "/Coming-Soon/static/js/main.b5faf628.js.map",
+    "453.6eb5dcc5.chunk.js.map": "/Coming-Soon/static/js/453.6eb5dcc5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb653d20.css",
+    "static/js/main.b5faf628.js"
+  ]
+}
